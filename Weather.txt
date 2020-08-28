@@ -2,3 +2,4 @@ Sunny 120 degrees Aug 25
 Sunny 150 degrees Aug 26
 Sunny 100 degrees Aug 27
 I need to remember how to commit
+Why are we still here?
