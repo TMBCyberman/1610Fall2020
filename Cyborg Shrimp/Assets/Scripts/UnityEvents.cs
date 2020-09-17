@@ -4,16 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class NewPowerUp : MonoBehaviour
+public class UnityEvents : MonoBehaviour
 {
-    public int value;
-    public UnityEvent powerUpEvent;
+    public UnityEvent myUnityEvent;
+
 
     private void OnTriggerEnter(Collider other)
     {
-        value++;
-        print(value);
-        powerUpEvent.Invoke();
+        myUnityEvent.Invoke();
     }
-    
 }

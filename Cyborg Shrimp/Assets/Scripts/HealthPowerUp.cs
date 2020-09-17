@@ -11,5 +11,6 @@ public class HealthPowerUp : MonoBehaviour
     {
         health++;
         print(health);
+        
     }
 }
