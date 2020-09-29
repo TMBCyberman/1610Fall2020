@@ -6,7 +6,7 @@ using UnityEngine;
 public class CaracterMover : MonoBehaviour
 {
     public CharacterController controller;
-    public float moveSpeed = 3f, gravity = -9.81f, jumpForce = 30f;
+    public float moveSpeed = 5f, gravity = -9.81f, jumpForce = 10f;
     
     private Vector3 moveDirection;
     private float yDirection;
@@ -21,12 +21,12 @@ public class CaracterMover : MonoBehaviour
         {
             yDirection = -1f;
         }
-        
-        if (Input.GetButton("Jump"))
+
+        if (Input.GetButtonDown("Jump"))
         {
-            moveDirection.y = jumpForce;
+            yDirection = jumpForce;
         }
-        
-        controller.Move(moveDirection * Time.deltaTime);
+        var movement = moveDirection * Time.deltaTime;
+        controller.Move(movement);
     }
 }

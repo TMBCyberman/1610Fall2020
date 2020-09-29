@@ -441,8 +441,8 @@ GameObject:
   - component: {fileID: 103018352}
   - component: {fileID: 103018357}
   - component: {fileID: 103018356}
-  - component: {fileID: 103018359}
   - component: {fileID: 103018358}
+  - component: {fileID: 103018359}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -585,9 +585,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 103018358}
-  moveSpeed: 3
+  moveSpeed: 5
   gravity: -9.81
-  jumpForce: 10
+  jumpForce: 5
 --- !u!1 &145106850
 GameObject:
   m_ObjectHideFlags: 0
