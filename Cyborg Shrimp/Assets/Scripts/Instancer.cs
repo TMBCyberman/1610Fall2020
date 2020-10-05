@@ -5,9 +5,16 @@ using UnityEngine;
 public class Instancer : MonoBehaviour
 {
     public GameObject prefab;
-    void Start()
+    public float delay = 2f;
+    
+    IEnumerator Start()
     {
-        Instantiate(prefab);
+        while (true)
+        {
+            Instantiate(prefab);
+            yield return new WaitForSeconds(delay);
+        }
+        
     }
     
 }
