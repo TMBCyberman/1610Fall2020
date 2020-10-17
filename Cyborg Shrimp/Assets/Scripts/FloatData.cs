@@ -13,8 +13,18 @@ public class FloatData : ScriptableObject
         value += number;
     }
 
+    public void ReplaceValue(float number)
+    {
+        value = number;
+    }
+
     public void DisplayImage(Image img)
     {
         img.fillAmount = value;
+    }
+
+    public void DisplayNumber(Text txt)
+    {
+        txt.text = value.ToString();
     }
 }
