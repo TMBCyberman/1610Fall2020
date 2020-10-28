@@ -1,19 +1,20 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Collections : MonoBehaviour
 {
-    public string singleString;
-    public List<Collectible> collectionlist;
+    public List<Collectible> collectibleList;
 
-    public void Start()
+    private void Start()
     {
-        foreach (var item in collectionlist)
+        foreach (var item in collectibleList)
         {
             var newItem = new GameObject(item.name);
             var sprite = newItem.AddComponent<SpriteRenderer>();
-            sp
+            sprite.sprite = item.art;
+            sprite.color = item.artColor;
         }
     }
 }
