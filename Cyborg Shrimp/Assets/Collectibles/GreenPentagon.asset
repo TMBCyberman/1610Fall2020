@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerLevel: 1
   cashValue: 10
-  art: {fileID: 0}
-  artColor: {r: 0, g: 0, b: 1, a: 1}
+  art: {fileID: 21300000, guid: b004964911287bd4fa82cceac9ab6c0f, type: 3}
+  artColor: {r: 0, g: 1, b: 0, a: 1}
