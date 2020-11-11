@@ -11,7 +11,9 @@ public class Defenses : ScriptableObject
         Potions,
         ExtraHealth,
         Buffs,
-        SuperShield
+        SuperShield,
+        Armor,
+        SuperArmor
     }
 
     public DefenseItems currentDefense;
@@ -35,6 +37,13 @@ public class Defenses : ScriptableObject
             case DefenseItems.SuperShield:
                 //function 
                 break;
+            case DefenseItems.Armor:
+                //function 
+                break;
+            case DefenseItems.SuperArmor:
+                //function 
+                break;
+            
         }
     }
 }
