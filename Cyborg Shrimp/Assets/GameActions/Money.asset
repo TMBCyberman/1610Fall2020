@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a792e34acd10e45a99500d0330568b, type: 3}
   m_Name: Money
   m_EditorClassIdentifier: 
-  value: 0
+  onZeroEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  value: 30
