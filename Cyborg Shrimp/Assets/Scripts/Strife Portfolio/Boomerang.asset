@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96bad60b68a5ed54fbf69ad2ef54fff7, type: 3}
-  m_Name: Potion 2
+  m_Script: {fileID: 11500000, guid: 7c9a4b3ca17f5ec429a501e29ff1496a, type: 3}
+  m_Name: Boomerang
   m_EditorClassIdentifier: 
-  currentDefense: 0
+  currentSpecibus: 0

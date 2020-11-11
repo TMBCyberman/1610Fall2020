@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96bad60b68a5ed54fbf69ad2ef54fff7, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a15961e7883bdf449d3ca5753e00b13, type: 3}
   m_Name: Potion
   m_EditorClassIdentifier: 
-  currentDefense: 0
+  cashValue: 10
+  art: {fileID: 0}
+  artColor: {r: 0, g: 0, b: 1, a: 1}
+  powerLevel: 0.5

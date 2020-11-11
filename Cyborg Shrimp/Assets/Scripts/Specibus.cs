@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class Defense : Collectible
+public class Specibus : ScriptableObject
 {
     public float powerLevel = 0.5f;
-    
-    public override void Use()
+    public void UseDefense()
     {
-        Debug.Log(this.name);
+        //use defense
     }
 }
