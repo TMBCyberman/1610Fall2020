@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20366c146ac608346bdc6550c19412b8, type: 3}
+  m_Name: Dialogue1
+  m_EditorClassIdentifier: 
+  value: A young man stands in his bedroom. It just so happens that today, the 18th
+    of May, 2021, is this young man's birthday. Though it was nineteen years ago
+    he was given life, it is only today he will be given a name!  What will the name
+    of this young man be?
