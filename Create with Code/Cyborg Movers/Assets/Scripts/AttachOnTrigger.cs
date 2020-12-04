@@ -15,6 +15,7 @@ public class AttachOnTrigger : MonoBehaviour
     
     private void OnTriggerExit(Collider other)
     {
+        print(other);
         transform.parent = null;
     }
 
